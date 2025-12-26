@@ -61,12 +61,11 @@ This lab utilizes Docker to ensure a safe, isolated, and reproducible environmen
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/agus33ina/n8n-rce-lab.git](https://github.com/agus33ina/n8n-rce-lab.git)
-    cd n8n-rce-lab
+    git clone https://github.com/xxxTectationxxx/n8n-Automate-VulnerableLab-.git
+    cd n8n-Automate-VulnerableLab-
     ```
 
 2.  **Launch the Victim Container**
-    We pull the pre-configured image directly from Docker Hub (`agus33ina/n8n-lab:v1`):
     ```bash
     docker compose up -d
     ```
